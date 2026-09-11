@@ -1,0 +1,116 @@
+name: kriyo_artisan_app
+description: Kriyo Artisan App - Empowering Artisans Digitally
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management â€” Riverpod
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Navigation â€” GoRouter
+  go_router: ^13.0.0
+
+  # Networking â€” Dio
+  dio: ^5.4.0
+
+  # Local Database â€” Drift + SQLite
+  drift: ^2.16.0
+  sqlite3_flutter_libs: ^0.5.20
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+  # Storage
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+
+  # Media & Camera
+  image_picker: ^1.0.7
+  camera: ^0.10.5+9
+  record: ^7.1.1
+  audioplayers: ^6.8.1
+  file_picker: ^11.0.3
+  video_player: ^2.14.0
+  share_plus: ^12.0.2
+
+  # UI
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  flutter_svg: ^2.0.9
+  lottie: ^3.0.0
+
+  # Permissions
+  permission_handler: ^11.2.0
+
+  # Connectivity
+  connectivity_plus: ^6.1.0
+
+  # Utils
+  intl: ^0.20.3
+  equatable: ^2.0.5
+  uuid: ^4.2.2
+  speech_to_text: ^7.4.0
+  flutter_tts: ^4.2.5
+  pdf: ^3.13.0
+  printing: ^5.15.0
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+  url_launcher: ^6.3.2
+  sendotp_flutter_sdk: ^0.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+  drift_dev: ^2.16.0
+  riverpod_generator: ^2.4.0
+  custom_lint: ^0.6.2
+  riverpod_lint: ^2.3.10
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/patterns/
+    - assets/illustrations/
+    - assets/animations/
+    - assets/data/
+    - assets/products/
+    - assets/products/tamil_nadu/
+    - assets/products/kerala/
+    - assets/products/karnataka/
+    - assets/products/andhra_pradesh/
+    - assets/products/odisha/
+    - assets/products/west_bengal/
+    - assets/products/bihar/
+    - assets/products/rajasthan/
+    - assets/products/gujarat/
+    - assets/products/uttar_pradesh/
+    - assets/products/assam_northeast/
+    - assets/audio/
+    - assets/Videos/
+    - "assets/Videos/A gift which is emotionally strong and loved by everyone_HD.mp4"
+    - "assets/Videos/Beautiful butterfly made out of paper_HD.mp4"
+    - "assets/Videos/Beautiful paper jhumar DIY crafts_HD.mp4"
+    - "assets/Videos/DIY waterfall card wheel of memories_HD.mp4"
+    - "assets/Videos/Easy wall hanging craft ideas_HD.mp4"
+    - "assets/Videos/Episode 5 of our DIY Diwali Decor Series is here!_HD.mp4"
+    - "assets/Videos/Poetry of hands_HD.mp4"
+    - "assets/Videos/Unique Paper Cup Wall Hanging Ideas __ Easy Paper Cup craft ideas __ Paper C_HD.mp4"
+    - "assets/Videos/Wait For The Result_HD.mp4"
+    - "assets/Videos/you need 2 rupees only for this gift idea_HD.mp4"
+
+  fonts: []

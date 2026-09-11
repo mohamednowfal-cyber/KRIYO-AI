@@ -1,0 +1,20 @@
+[project]
+name = "kriyo-backend"
+version = "1.0.0"
+description = "KRIYO Artisan & Customer Backend Service"
+requires-python = ">=3.11"
+
+[tool.pyright]
+venvPath = "c:/KRIYO"
+venv = ".venv"
+include = ["kriyo_backend"]
+extraPaths = [
+    "c:/KRIYO/kriyo_backend",
+    "c:/KRIYO/.venv/Lib/site-packages"
+]
+
+[tool.pyrefly]
+search-paths = [
+    "c:/KRIYO/kriyo_backend",
+    "c:/KRIYO/.venv/Lib/site-packages"
+]

@@ -1,0 +1,321 @@
+==================================================
+ KRIYO RAG ENGINE — EVALUATION TEST QUERY RESULTS
+ Corpus Status: synthetic_demo
+==================================================
+
+QUERY #1: What are the crafts available?
+============================================================
+
+--- RETRIEVED SOURCES ---
+[1] Document: DOC005 | Section: Preservation | Score: 0.594
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC005.md
+    Snippet: Preservation  Supported by regional craft cooperatives and digital cataloguing initiatives under KRIYO....
+
+[2] Document: DOC007 | Section: Preservation | Score: 0.594
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC007.md
+    Snippet: Preservation  Supported by regional craft cooperatives and digital cataloguing initiatives under KRIYO....
+
+[3] Document: DOC016 | Section: Preservation | Score: 0.594
+    Folder: heritage | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\heritage\DOC016.md
+    Snippet: Preservation  Supported by regional craft cooperatives and digital cataloguing initiatives under KRIYO....
+
+[4] Document: DOC018 | Section: Preservation | Score: 0.594
+    Folder: heritage | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\heritage\DOC018.md
+    Snippet: Preservation  Supported by regional craft cooperatives and digital cataloguing initiatives under KRIYO....
+
+[5] Document: DOC026 | Section: Preservation | Score: 0.594
+    Folder: market | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\market\DOC026.md
+    Snippet: Preservation  Supported by regional craft cooperatives and digital cataloguing initiatives under KRIYO....
+
+[6] Document: DOC027 | Section: Preservation | Score: 0.594
+    Folder: market | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\market\DOC027.md
+    Snippet: Preservation  Supported by regional craft cooperatives and digital cataloguing initiatives under KRIYO....
+
+[7] Document: DOC024 | Section: Preservation | Score: 0.594
+    Folder: oral_history | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\oral_history\DOC024.md
+    Snippet: Preservation  Supported by regional craft cooperatives and digital cataloguing initiatives under KRIYO....
+
+[8] Document: DOC029 | Section: Preservation | Score: 0.594
+    Folder: research | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\research\DOC029.md
+    Snippet: Preservation  Supported by regional craft cooperatives and digital cataloguing initiatives under KRIYO....
+
+--- GROUNDED ANSWER ---
+I don't have enough evidence in the KRIYO knowledge base to answer that reliably.
+
+------------------------------------------------------------
+
+QUERY #2: Which crafts are associated with Thanjavur?
+============================================================
+
+--- RETRIEVED SOURCES ---
+[1] Document: DOC002 | Section: Products | Score: 0.7143
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC002.md
+    Snippet: Products  Major product lines manufactured under this craft include Products of Thanjavur Painting....
+
+[2] Document: DOC025 | Section: Products | Score: 0.707
+    Folder: market | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\market\DOC025.md
+    Snippet: Products  Major product lines manufactured under this craft include Products of Thanjavur Veena Making....
+
+[3] Document: DOC008 | Section: Products | Score: 0.666
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC008.md
+    Snippet: Products  Major product lines manufactured under this craft include Products of Thanjavur Doll....
+
+[4] Document: DOC025 | Section: Overview | Score: 0.6487
+    Folder: market | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\market\DOC025.md
+    Snippet: Overview  Thanjavur Veena Making (`C025`) is a prominent tradition of Tamil Nadu belonging to the Basketry category....
+
+[5] Document: DOC008 | Section: Overview | Score: 0.6286
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC008.md
+    Snippet: Overview  Thanjavur Doll (`C008`) is a prominent tradition of Tamil Nadu belonging to the Embroidery category....
+
+[6] Document: DOC003 | Section: Products | Score: 0.6106
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC003.md
+    Snippet: Products  Major product lines manufactured under this craft include Products of Thanjavur Bronze Casting....
+
+[7] Document: DOC002 | Section: Overview | Score: 0.6082
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC002.md
+    Snippet: Overview  Thanjavur Painting (`C002`) is a prominent tradition of Tamil Nadu belonging to the Metal category....
+
+[8] Document: DOC003 | Section: Overview | Score: 0.5856
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC003.md
+    Snippet: Overview  Thanjavur Bronze Casting (`C003`) is a prominent tradition of Tamil Nadu belonging to the Pottery category....
+
+--- GROUNDED ANSWER ---
+• Major product lines manufactured under this craft include Products of Thanjavur Painting. [DOC002: Products]
+
+• Major product lines manufactured under this craft include Products of Thanjavur Veena Making. [DOC025: Products]
+
+• Major product lines manufactured under this craft include Products of Thanjavur Doll. [DOC008: Products]
+
+• Thanjavur Veena Making (`C025`) is a prominent tradition of Tamil Nadu belonging to the Basketry category. [DOC025: Overview]
+
+• Thanjavur Doll (`C008`) is a prominent tradition of Tamil Nadu belonging to the Embroidery category. [DOC008: Overview]
+
+• Major product lines manufactured under this craft include Products of Thanjavur Bronze Casting. [DOC003: Products]
+
+**Sources Cited (synthetic_demo):** DOC002 (Overview), DOC002 (Products), DOC003 (Overview), DOC003 (Products), DOC008 (Overview), DOC008 (Products), DOC025 (Overview), DOC025 (Products)
+
+*(Note: All facts and sources referenced above are from the KRIYO synthetic_demo dataset for RAG testing only.)*
+
+------------------------------------------------------------
+
+QUERY #3: What traditional techniques are associated with Thanjavur bronze casting?
+============================================================
+
+--- RETRIEVED SOURCES ---
+[1] Document: DOC003 | Section: Overview | Score: 0.7318
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC003.md
+    Snippet: Overview  Thanjavur Bronze Casting (`C003`) is a prominent tradition of Tamil Nadu belonging to the Pottery category....
+
+[2] Document: DOC003 | Section: Products | Score: 0.6656
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC003.md
+    Snippet: Products  Major product lines manufactured under this craft include Products of Thanjavur Bronze Casting....
+
+[3] Document: DOC001 | Section: Techniques | Score: 0.5434
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC001.md
+    Snippet: Techniques  Key techniques involve Handloom weaving / Lost-wax casting / Gesso relief....
+
+[4] Document: DOC021 | Section: Techniques | Score: 0.5434
+    Folder: oral_history | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\oral_history\DOC021.md
+    Snippet: Techniques  Key techniques involve Handloom weaving / Lost-wax casting / Gesso relief....
+
+[5] Document: DOC023 | Section: Techniques | Score: 0.5434
+    Folder: oral_history | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\oral_history\DOC023.md
+    Snippet: Techniques  Key techniques involve Handloom weaving / Lost-wax casting / Gesso relief....
+
+[6] Document: DOC024 | Section: Techniques | Score: 0.5434
+    Folder: oral_history | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\oral_history\DOC024.md
+    Snippet: Techniques  Key techniques involve Handloom weaving / Lost-wax casting / Gesso relief....
+
+[7] Document: DOC028 | Section: Techniques | Score: 0.5434
+    Folder: research | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\research\DOC028.md
+    Snippet: Techniques  Key techniques involve Handloom weaving / Lost-wax casting / Gesso relief....
+
+[8] Document: DOC015 | Section: Techniques | Score: 0.5434
+    Folder: techniques | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\techniques\DOC015.md
+    Snippet: Techniques  Key techniques involve Handloom weaving / Lost-wax casting / Gesso relief....
+
+--- GROUNDED ANSWER ---
+• Thanjavur Bronze Casting (`C003`) is a prominent tradition of Tamil Nadu belonging to the Pottery category. [DOC003: Overview]
+
+• Major product lines manufactured under this craft include Products of Thanjavur Bronze Casting. [DOC003: Products]
+
+• Key techniques involve Handloom weaving / Lost-wax casting / Gesso relief. [DOC001: Techniques]
+
+**Sources Cited (synthetic_demo):** DOC001 (Techniques), DOC003 (Overview), DOC003 (Products), DOC015 (Techniques), DOC021 (Techniques), DOC023 (Techniques), DOC024 (Techniques), DOC028 (Techniques)
+
+*(Note: All facts and sources referenced above are from the KRIYO synthetic_demo dataset for RAG testing only.)*
+
+------------------------------------------------------------
+
+QUERY #4: What digital barriers do traditional artisans face?
+============================================================
+
+--- RETRIEVED SOURCES ---
+[1] Document: DOC001 | Section: Current Challenges | Score: 0.6192
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC001.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+[2] Document: DOC016 | Section: Current Challenges | Score: 0.6192
+    Folder: heritage | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\heritage\DOC016.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+[3] Document: DOC018 | Section: Current Challenges | Score: 0.6192
+    Folder: heritage | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\heritage\DOC018.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+[4] Document: DOC026 | Section: Current Challenges | Score: 0.6192
+    Folder: market | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\market\DOC026.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+[5] Document: DOC021 | Section: Current Challenges | Score: 0.6192
+    Folder: oral_history | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\oral_history\DOC021.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+[6] Document: DOC024 | Section: Current Challenges | Score: 0.6192
+    Folder: oral_history | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\oral_history\DOC024.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+[7] Document: DOC029 | Section: Current Challenges | Score: 0.6192
+    Folder: research | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\research\DOC029.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+[8] Document: DOC015 | Section: Current Challenges | Score: 0.6192
+    Folder: techniques | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\techniques\DOC015.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+--- GROUNDED ANSWER ---
+• Artisans face raw material cost inflation, competition from automated alternatives, and direct market access challenges. [DOC001: Current Challenges]
+
+**Sources Cited (synthetic_demo):** DOC001 (Current Challenges), DOC015 (Current Challenges), DOC016 (Current Challenges), DOC018 (Current Challenges), DOC021 (Current Challenges), DOC024 (Current Challenges), DOC026 (Current Challenges), DOC029 (Current Challenges)
+
+*(Note: All facts and sources referenced above are from the KRIYO synthetic_demo dataset for RAG testing only.)*
+
+------------------------------------------------------------
+
+QUERY #5: Which products are suitable for B2B buyers?
+============================================================
+
+--- RETRIEVED SOURCES ---
+[1] Document: DOC009 | Section: Market Context | Score: 0.4745
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC009.md
+    Snippet: Market Context  Categorized under lesser_known fame status with strong potential in B2B hospitality and heritage retail....
+
+[2] Document: DOC018 | Section: Market Context | Score: 0.4745
+    Folder: heritage | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\heritage\DOC018.md
+    Snippet: Market Context  Categorized under lesser_known fame status with strong potential in B2B hospitality and heritage retail....
+
+[3] Document: DOC027 | Section: Market Context | Score: 0.4745
+    Folder: market | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\market\DOC027.md
+    Snippet: Market Context  Categorized under lesser_known fame status with strong potential in B2B hospitality and heritage retail....
+
+[4] Document: DOC021 | Section: Market Context | Score: 0.4745
+    Folder: oral_history | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\oral_history\DOC021.md
+    Snippet: Market Context  Categorized under lesser_known fame status with strong potential in B2B hospitality and heritage retail....
+
+[5] Document: DOC024 | Section: Market Context | Score: 0.4745
+    Folder: oral_history | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\oral_history\DOC024.md
+    Snippet: Market Context  Categorized under lesser_known fame status with strong potential in B2B hospitality and heritage retail....
+
+[6] Document: DOC030 | Section: Market Context | Score: 0.4745
+    Folder: research | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\research\DOC030.md
+    Snippet: Market Context  Categorized under lesser_known fame status with strong potential in B2B hospitality and heritage retail....
+
+[7] Document: DOC012 | Section: Market Context | Score: 0.4745
+    Folder: techniques | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\techniques\DOC012.md
+    Snippet: Market Context  Categorized under lesser_known fame status with strong potential in B2B hospitality and heritage retail....
+
+[8] Document: DOC015 | Section: Market Context | Score: 0.4745
+    Folder: techniques | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\techniques\DOC015.md
+    Snippet: Market Context  Categorized under lesser_known fame status with strong potential in B2B hospitality and heritage retail....
+
+--- GROUNDED ANSWER ---
+• Categorized under lesser_known fame status with strong potential in B2B hospitality and heritage retail. [DOC009: Market Context]
+
+**Sources Cited (synthetic_demo):** DOC009 (Market Context), DOC012 (Market Context), DOC015 (Market Context), DOC018 (Market Context), DOC021 (Market Context), DOC024 (Market Context), DOC027 (Market Context), DOC030 (Market Context)
+
+*(Note: All facts and sources referenced above are from the KRIYO synthetic_demo dataset for RAG testing only.)*
+
+------------------------------------------------------------
+
+QUERY #6: What is the exact annual income of Artisan A001?
+============================================================
+
+--- RETRIEVED SOURCES ---
+[1] Document: DOC001 | Section: Current Challenges | Score: 0.3194
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC001.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+[2] Document: DOC002 | Section: Current Challenges | Score: 0.3194
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC002.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+[3] Document: DOC004 | Section: Current Challenges | Score: 0.3194
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC004.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+[4] Document: DOC016 | Section: Current Challenges | Score: 0.3194
+    Folder: heritage | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\heritage\DOC016.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+[5] Document: DOC028 | Section: Current Challenges | Score: 0.3194
+    Folder: research | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\research\DOC028.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+[6] Document: DOC029 | Section: Current Challenges | Score: 0.3194
+    Folder: research | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\research\DOC029.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+[7] Document: DOC012 | Section: Current Challenges | Score: 0.3194
+    Folder: techniques | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\techniques\DOC012.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+[8] Document: DOC015 | Section: Current Challenges | Score: 0.3194
+    Folder: techniques | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\techniques\DOC015.md
+    Snippet: Current Challenges  Artisans face raw material cost inflation, competition from automated alternatives, and direct marke...
+
+--- GROUNDED ANSWER ---
+I don't have enough evidence in the KRIYO knowledge base to answer that reliably.
+
+------------------------------------------------------------
+
+QUERY #7: Who won the cricket world cup?
+============================================================
+
+--- RETRIEVED SOURCES ---
+[1] Document: DOC010 | Section: Overview | Score: 0.2
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC010.md
+    Snippet: Overview  Coimbatore Cotton Handloom (`C010`) is a prominent tradition of Tamil Nadu belonging to the Leather category....
+
+[2] Document: DOC009 | Section: Overview | Score: 0.1877
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC009.md
+    Snippet: Overview  Karuppur Kalamkari (`C009`) is a prominent tradition of Tamil Nadu belonging to the Jewellery category....
+
+[3] Document: DOC022 | Section: Overview | Score: 0.1758
+    Folder: oral_history | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\oral_history\DOC022.md
+    Snippet: Overview  Craft C022 Jewellery (`C022`) is a prominent tradition of Tamil Nadu belonging to the Jewellery category....
+
+[4] Document: DOC006 | Section: Overview | Score: 0.1702
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC006.md
+    Snippet: Overview  Nachiarkoil Brass Lamps (`C006`) is a prominent tradition of Tamil Nadu belonging to the Wood category....
+
+[5] Document: DOC025 | Section: Overview | Score: 0.1506
+    Folder: market | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\market\DOC025.md
+    Snippet: Overview  Thanjavur Veena Making (`C025`) is a prominent tradition of Tamil Nadu belonging to the Basketry category....
+
+[6] Document: DOC009 | Section: Products | Score: 0.1472
+    Folder: crafts | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\crafts\DOC009.md
+    Snippet: Products  Major product lines manufactured under this craft include Products of Karuppur Kalamkari....
+
+[7] Document: DOC023 | Section: Overview | Score: 0.1463
+    Folder: oral_history | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\oral_history\DOC023.md
+    Snippet: Overview  Craft C023 Leather (`C023`) is a prominent tradition of Tamil Nadu belonging to the Leather category....
+
+[8] Document: DOC020 | Section: Overview | Score: 0.1461
+    Folder: heritage | Path: D:\Kriyo_RAG_Data\KRIYO_RAG_DATA\02_knowledge_documents\heritage\DOC020.md
+    Snippet: Overview  Craft C020 Stone (`C020`) is a prominent tradition of Tamil Nadu belonging to the Stone category....
+
+--- GROUNDED ANSWER ---
+The answer you are looking for is not available in the KRIYO knowledge base.
+
+------------------------------------------------------------

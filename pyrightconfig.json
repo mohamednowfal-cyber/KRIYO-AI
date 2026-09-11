@@ -1,0 +1,18 @@
+{
+  "venvPath": "c:/KRIYO",
+  "venv": ".venv",
+  "include": [
+    "kriyo_backend"
+  ],
+  "extraPaths": [
+    "c:/KRIYO/kriyo_backend",
+    "c:/KRIYO/.venv/Lib/site-packages"
+  ],
+  "pythonVersion": "3.13",
+  "typeCheckingMode": "basic",
+  "reportGeneralTypeIssues": false,
+  "reportReturnType": false,
+  "reportArgumentType": false,
+  "reportAttributeAccessIssue": false,
+  "reportAssignmentType": false
+}

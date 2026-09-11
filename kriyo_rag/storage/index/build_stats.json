@@ -1,0 +1,6 @@
+{
+  "files_ingested": 30,
+  "chunks_created": 1514,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "build_timestamp": "2026-09-11T13:16:45.997180+00:00"
+}

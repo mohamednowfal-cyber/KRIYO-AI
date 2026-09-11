@@ -1,0 +1,17 @@
+check,value
+structured_xlsx_expected,10
+craft_docs_expected,10
+heritage_docs_expected,5
+market_docs_expected,5
+oral_history_docs_expected,8
+research_simulation_docs_expected,10
+oral_history_manifest,present
+corpus_integrity_report,present
+data_status,synthetic_demo
+notes,Synthetic demo corpus integrity checklist for KRIYO RAG. Not a real-world audit.
+structured_xlsx_found,10
+craft_docs_found,10
+heritage_docs_found,5
+market_docs_found,5
+oral_history_docs_found,8
+research_simulation_docs_found,10
