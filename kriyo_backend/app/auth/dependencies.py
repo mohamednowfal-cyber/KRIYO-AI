@@ -5,7 +5,7 @@ FastAPI security dependencies for JWT extraction, role enforcement, and user aut
 from typing import Optional
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
-from jose import JWTError
+from jose import JWTError  # type: ignore
 from sqlalchemy.orm import Session
 
 from app.config.security import decode_token
